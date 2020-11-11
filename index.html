@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<title>Yepco sample</title>
+<head>
+    <meta charset="utf-8">
+    <script src="./lib/CSInterface.js"></script>
+    <script type="text/javascript">
+      function handleClick() {
+        new CSInterface().evalScript('EXT.addClipMarkers()');
+      }
+    </script>
+    <style type="text/css">
+        html {
+            background-color: #1F2026;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<p>First asset in project will be used to add clip markers.</p>
+<button onClick="handleClick()">Add clip markers</button>
+</body>
+</html>
